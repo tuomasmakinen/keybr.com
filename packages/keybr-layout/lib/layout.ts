@@ -516,6 +516,15 @@ export class Layout implements XEnumItem {
       Geometry.MATRIX,
     ),
   );
+  static readonly FI_TUOMAS = new Layout(
+    /* id= */ "fi_tuomas",
+    /* xid= */ 0x87,
+    /* name= */ "Finnish Tuomas",
+    /* family= */ LayoutFamily.QWERTY,
+    /* language= */ Language.FI,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(Geometry.MATRIX),
+  );
 
   static readonly ALL = new XEnum<Layout>(
     Layout.EN_US,
@@ -553,6 +562,7 @@ export class Layout implements XEnumItem {
     Layout.SV_SE,
     Layout.UK_UA,
     Layout.RU_RU,
+    Layout.FI_TUOMAS,
   );
 
   private constructor(
