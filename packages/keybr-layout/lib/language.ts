@@ -7,6 +7,7 @@ export class Language implements EnumItem {
   static readonly EL = new Language("el", "greek", "ltr");
   static readonly EN = new Language("en", "latin", "ltr");
   static readonly ES = new Language("es", "latin", "ltr");
+  static readonly FI = new Language("fi", "latin", "ltr");
   static readonly FR = new Language("fr", "latin", "ltr");
   static readonly HE = new Language("he", "hebrew", "rtl");
   static readonly IT = new Language("it", "latin", "ltr");
@@ -25,6 +26,7 @@ export class Language implements EnumItem {
     Language.EL,
     Language.EN,
     Language.ES,
+    Language.FI,
     Language.FR,
     Language.HE,
     Language.IT,

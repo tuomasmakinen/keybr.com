@@ -24,6 +24,7 @@ const blacklistByLanguage = ((items: [Language, string[]][]) =>
   [Language.DE, blacklistDe],
   [Language.EN, blacklistEn],
   [Language.ES, blacklistEs],
+  [Language.FI, blacklistSv],
   [Language.FR, blacklistFr],
   [Language.IT, blacklistIt],
   [Language.NL, blacklistNl],

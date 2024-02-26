@@ -47,6 +47,7 @@ export function modelAssetPath(language: Language): string {
     case Language.SL:
       return langSlData;
     case Language.SV:
+    case Language.FI:
       return langSvData;
     case Language.UK:
       return langUkData;

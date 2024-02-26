@@ -54,6 +54,10 @@ const files: readonly [input: string | LayoutConfig, output: string][] = [
     "../keybr-keyboard/lib/data/layout/es_es-win.ts",
   ],
   [
+    "cldr-keyboards-43.0/keyboards/windows/fi-t-k0-windows.xml",
+    "../keybr-keyboard/lib/data/layout/fi_fi-win.ts",
+  ],
+  [
     "cldr-keyboards-43.0/keyboards/windows/fr-t-k0-windows.xml",
     "../keybr-keyboard/lib/data/layout/fr_fr-win.ts",
   ],
